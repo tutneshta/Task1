@@ -7,8 +7,8 @@ namespace Task1
         static void Main(string[] args)
         {
             
-            string path = @"E:\Task1\";
-            XFile.DeliteFile(path);
+            
+            XFile.DeliteFile(@"E:\Task1\");
         }
         
       
