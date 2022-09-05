@@ -6,7 +6,11 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.ReadKey();
+            string path = @"E:\Task1\";
+            XFile.DeliteFile(path);
         }
+        
+      
     }
 }
